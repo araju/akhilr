@@ -1,0 +1,49 @@
+/** projects.css
+    by Akhil
+**/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.page-title {
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+
+
+/**** Size Dependent Stuff  **********/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    .page-title {
+        font-size: 100px;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .page-title {
+        font-size: 85px;
+    }
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 70px;
+    }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 50px;
+    }
+
+}

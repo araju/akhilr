@@ -1,0 +1,90 @@
+/** photos.css
+    by Akhil
+**/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.page-title {
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+.gallery-row {
+    width=100%;
+    text-align: center;
+}
+
+.fancybox-thumbs {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/**** Size Dependent Stuff  **********/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    .page-title {
+        font-size: 100px;
+    }
+
+    .fancybox-thumbs img {
+        width: 250px;
+    }
+
+    .gallery-row {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .page-title {
+        font-size: 85px;
+    }
+
+    .fancybox-thumbs img {
+        width: 200px;
+    }
+
+    .gallery-row {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 70px;
+    }
+
+    .fancybox-thumbs img {
+        width: 110px;
+    }
+    .gallery-row {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 50px;
+    }
+
+    .fancybox-thumbs img {
+        width: 100px;
+    }
+    
+    .gallery-row {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
