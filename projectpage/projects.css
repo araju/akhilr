@@ -13,7 +13,28 @@ body {
 
 }
 
+.affix {
+  width: inherit;
+  position: fixed;
+  top: 62px; 
+}
+.affix-bottom {
+  width: inherit;
+  position: absolute;
+  top: auto;
+  bottom: 20px; 
+}
+.affix-top {
+    padding-top: 20px;
+}
 
+.project-names {
+    border-style: solid;
+    border-width: medium;
+}
+.project-names .active {
+    border-style: dashed;
+}
 
 /**** Size Dependent Stuff  **********/
 

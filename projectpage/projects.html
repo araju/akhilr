@@ -59,24 +59,65 @@
     </div>
 
     <div class="container">
-        <div class="col-md-2">
-            <div class="project-navbar hidden-print affix-top" role="complementary">
-                <ul class="nav bs-docs-sidenav">
-                    <li class="active"> <a href="#6141robot">Block-stacking Robot</a></li>
-                    <li><a href="#my">Next item</a></li>
-                    <li><a href="#world">Next project</a></li>
+        <div class="col-md-3">
+            <div class="project-navbar" role="complementary">
+                <ul class="nav project-names" data-spy="affix" data-offset-top="200" data-offset-bottom="200">
+                    <li class="active"> <a href="#maslab">Mobile Autonomous Robot</a></li>
+                    <li><a href="#virtualruler">Virtual Ruler</a></li>
+                    <li><a href="#6141robot">Block-stacking Robot</a></li>
                 </ul>
             </div>
         </div>
-        <div class="col-md-10">
-            <h1 id="6141robot" class="page-header">Block-stacking Robot</h1>
-            <p>
-                As part of the MIT class <a href="http://courses.csail.mit.edu/6.141/">6.141</a>, taught by Prof. Seth Teller, four teammates and I built an autonomous robot that could find and stack colored blocks while avoiding obstacles. Throughout the semester we also implemented different canonical robotics algorithms for areas like localization, mapping, and path-planning. More information on what my team did can be found at the team's <a href="https://courses.csail.mit.edu/rss/wiki/index.php?title=2013_-_Team_3">wiki page</a>. Unfortunately, MIT certficates might be required.
-            </p>
+
+
+        <!-- ================= Projects ==================== -->
+        <div class="col-md-9">
+
+            <!-- Maslab -->
+            <div class="row project-row">
+                <h1 id="maslab" class="project-title">Mobile Autonomous Robot</h1>
+                <p>
+                    I competed on a team of 4 in MIT's Mobile Autonomous Systems Lab (MASLAB) competition. In one month, we designed, built, and programmed an autonomous robot that could navigate, avoid obstacles, collect balls, and sort them by color. Code for the robot (both the firmware and the higher-level processing) is hosted on my Github: <a href="https://github.com/araju/maslab-2014">https://github.com/araju/maslab-2014</a>. For more information about the competition that year, visit <a href="http://maslab.mit.edu/2014/wiki/Maslab_2014">http://maslab.mit.edu/2014/wiki/Maslab_2014</a>. To see more information about our robot, check out our team's <a href="http://maslab.mit.edu/2014/wiki/Team_Five/Final_Paper">summative report</a>.
+                </p>
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- Virtual Ruler -->
+            <div class="row project-row">
+                <h1 id="virtualruler" class="project-title">Virtual Ruler</h1>
+                <p>
+                    Chase Lambert and I created a virtual ruler that could measure objects in images taken with your camera phone if you place a credit card next to it for scale. The ruler automatically finds the credit card and allows the user to draw out the dimension he or she wants to measure. The project is still in a pre-alpha stage, but initial results are promising. Code to be hosted on Github soon.
+                </p>
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <img class="project-img img-responsive" src="guitar_measure.png" alt="Virtual ruler example">
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- 6.141 robot -->
+            <div class="row project-row">
+                <h1 id="6141robot" class="project-title">Block-stacking Robot</h1>
+                <p>
+                    As part of the MIT class <a href="http://courses.csail.mit.edu/6.141/">6.141</a>, taught by Prof. Seth Teller, four teammates and I built an autonomous robot that could find and stack colored blocks while avoiding obstacles. Throughout the semester we also implemented different canonical robotics algorithms for areas like localization, mapping, and path-planning. More information on what my team did can be found at the team's <a href="https://courses.csail.mit.edu/rss/wiki/index.php?title=2013_-_Team_3">wiki page</a>. Unfortunately, MIT certficates might be required.
+                </p>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <img class="project-img img-responsive" src="Team3Lab1Part3_RobotPhoto.jpg" alt="Robot before arm">
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <img class="project-img img-responsive" src="resized_robot_6141.png" alt="Robot with arm">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container footer">
         <hr class="section-divider">
         <footer>
             <p>© Akhil Raju 2014</p>
