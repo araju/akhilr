@@ -37,6 +37,10 @@ body {
   font-size: 90px;
 }
 
+.section-heading > a{
+  color: #333333;
+}
+
 /********** END JUMBOTRON **********/
 
 /*****   BEGIN ABOUT ME ******/
